@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Meme Generator</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="MemeGenerator.css">
+    <script src="MemeGenerator.js"></script>
+</head>
+
+<body>
+    <div id="menu">
+        <h1>Welcome to the Meme Generator</h1>
+        <h2>by Trevyn Case</h2>
+    </div>
+    <div id="creator">
+        <form method="POST" id="info">
+            <label for="image">Image URL or File</label>
+            <input type="text" id="image" name="image" autocomplete="off"> <br>
+            <label for="ttext">Top Text</label>
+            <input type="text" id="ttext" name="ttext" autocomplete="off"> <br>
+            <label for="btext">Bottom Text</label>
+            <input type="text" id="btext" name="btext" autocomplete="off"> <br>
+            <button>Create Meme</button>
+        </form>
+    </div>
+    <div id="memes"></div>
+</body>
+
+</html>
